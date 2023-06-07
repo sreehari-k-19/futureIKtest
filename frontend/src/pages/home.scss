@@ -1,0 +1,26 @@
+// data-section
+
+.data-section {
+  width: 100%;
+  min-height: 75vh;
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 78px 210px 78px 160px; 
+  gap: 18px; 
+  grid-template-areas: 
+    "headbox headbox headbox"
+    "geninfo livestatics map"
+    "devicestatus activelogs map"
+    "devicestatus activelogs domainqota";
+  
+}
+.headline{
+  font-size: 24px;
+}
+.map { grid-area: map; }
+.headbox { grid-area: headbox; }
+.geninfo { grid-area: geninfo; }
+.livestatics { grid-area: livestatics; }
+.devicestatus { grid-area: devicestatus; }
+.activelogs { grid-area: activelogs; }
+.domainqota { grid-area: domainqota; }

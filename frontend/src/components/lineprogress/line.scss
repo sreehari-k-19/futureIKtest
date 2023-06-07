@@ -1,0 +1,22 @@
+.lineprogress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .title, .value {
+    font-weight: 400;
+    font-size: 14px;
+    color: #909090;
+    margin: 0;
+  }
+  .bar {
+    height: 15px;
+    width: 60%;
+    background: #ededed;
+    border-radius: 20px;
+    .progress {
+      background: #0b3366;
+      border-radius: 20px;
+      height: 100%;
+    }
+  }
+}

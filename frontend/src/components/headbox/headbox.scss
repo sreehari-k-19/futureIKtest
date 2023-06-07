@@ -1,0 +1,31 @@
+.headbox {
+  // grid-column: 1/6;
+  // grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: start;
+  height: 78px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid rgba(223, 223, 223, 0.41);
+  .title {
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+  }
+  .child {
+    font-family: "Proxima Nova";
+    :nth-child(1) {
+      font-weight: 400;
+      font-size: 14px;
+      color: #c6c6c6;
+    }
+    :nth-child(1) {
+      font-size: 15px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}

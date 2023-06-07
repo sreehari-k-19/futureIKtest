@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/Proxima\ Nova\ Font.otf");
+  format: "opentype";
+}
+
+#root {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  max-width: 1600px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+}
+.headphone {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
