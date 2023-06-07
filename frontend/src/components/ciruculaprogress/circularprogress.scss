@@ -16,4 +16,10 @@
 }
 .circularbar-2{
   display: flex;
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #3e98c7;
+    font-size: 12px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
 }

@@ -21,8 +21,8 @@ const Domain = () => {
                     </div>
                     <div>
                         <Child title="Today" per="30.00%" usage={+15.00} />
-                        <Child title="This week" per="30.00%" usage={-15.00} />
-                        <Child title="This week" per="30.00%" usage={-15.00} />
+                        <Child title="This week" per="15.00%" usage={-15.00} />
+                        <Child title="This mounth" per="55.00%" usage={-15.00} />
                     </div>
 
                 </div>

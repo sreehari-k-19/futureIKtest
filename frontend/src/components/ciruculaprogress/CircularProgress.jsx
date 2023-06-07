@@ -6,7 +6,7 @@ import './circularprogress.scss';
 const CircularProgress = ({ title, percentage, rotation }) => {
     return (
         <div className={title ? "circularbar" : "circularbar-2"}>
-            <CircularProgressbar value={percentage} text={percentage} styles={buildStyles({
+            <CircularProgressbar value={percentage} text={title ? `${percentage}` : "60.33% Used"} styles={buildStyles({
                 rotation: `${rotation}`,
                 pathColor: '#0b3366',
                 textColor: 'rgba(144, 144, 144, 1)',

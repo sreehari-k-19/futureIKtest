@@ -1,16 +1,19 @@
 .lineprogress {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .title, .value {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  // grid-template-rows: repeat(4,20px);
+  place-items:center;
+  .title,
+  .value {
     font-weight: 400;
     font-size: 14px;
     color: #909090;
     margin: 0;
+    justify-self: self-start;
   }
   .bar {
     height: 15px;
-    width: 60%;
+    width: 80%;
     background: #ededed;
     border-radius: 20px;
     .progress {

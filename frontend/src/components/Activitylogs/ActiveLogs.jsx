@@ -10,8 +10,8 @@ const ActiveLogs = () => {
       <Box title="Active Logs">
         <div className="wrapper">
           <Child icon={Icontablet} title="Device" subtitle="utureIK-device 1 report generated successfully" date='16 Mar 2023' time='06:30:25 PM' />
-          <Child icon={playlist} title="Device" subtitle="utureIK-device 1 report generated successfully" date='16 Mar 2023' time='06:30:25 PM' />
-          <Child icon={commandline} title="Device" subtitle="utureIK-device 1 report generated successfully" date='16 Mar 2023' time='06:30:25 PM' />
+          <Child icon={playlist} title="Campaign" subtitle="FutureIK-cinemas Modified successfully" date='16 Mar 2023' time='06:30:25 PM' />
+          <Child icon={commandline} title="Zones" subtitle="FutureIK-Display 1 created successfully" date='16 Mar 2023' time='06:30:25 PM' />
         </div>
       </Box>
     </div>

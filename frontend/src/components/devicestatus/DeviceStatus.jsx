@@ -20,27 +20,27 @@ const DeviceStatus = () => {
                             <tr>
                                 <TableContent content="Test device 01" />
                                 <TableContent content="online" color={true} />
-                                <TableContent content="wed apr 26 2023, 09:53 " />
+                                <TableContent content="Wed Apr 26 2023 ; 03:00:10" />
+                            </tr>
+                            <tr>
+                                <TableContent content="Test device 02" />
+                                <TableContent content="online" color={true} />
+                                <TableContent content="wed apr 26 2023, 09:53:00 " />
                             </tr>
                             <tr>
                                 <TableContent content="Test device 01" />
                                 <TableContent content="offline" color={true} />
-                                <TableContent content="wed apr 26 2023, 09:53 " />
+                                <TableContent content="Wed Apr 26 2023 ; 15:00:10" />
+                            </tr>
+                            <tr>
+                                <TableContent content="Test device 01" />
+                                <TableContent content="offline" color={true} />
+                                <TableContent content="Wed Apr 26 2023 ; 10:00:10"/>
                             </tr>
                             <tr>
                                 <TableContent content="Test device 01" />
                                 <TableContent content="online" color={true} />
-                                <TableContent content="wed apr 26 2023, 09:53 " />
-                            </tr>
-                            <tr>
-                                <TableContent content="Test device 01" />
-                                <TableContent content="online" color={true} />
-                                <TableContent content="wed apr 26 2023, 09:53 " />
-                            </tr>
-                            <tr>
-                                <TableContent content="Test device 01" />
-                                <TableContent content="online" color={true} />
-                                <TableContent content="wed apr 26 2023, 09:53 " />
+                                <TableContent content="Wed Apr 26 2023 ; 12:00:10" />
                             </tr>
                         </tbody>
                     </table>
